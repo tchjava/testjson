@@ -64,4 +64,5 @@ public class TestStudentMapper {
     }
     //加一个fun5()方法
     //加一个fun6()方法
+    //加一个fun7()方法
 }
