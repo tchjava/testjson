@@ -86,4 +86,10 @@ public class TestStudentMapper {
     public void fun9() {
         System.out.println("补充了fun9...");
     }
+
+    //添加登录功能
+    @Test
+    public void login() {
+        System.out.println("login.....");
+    }
 }
