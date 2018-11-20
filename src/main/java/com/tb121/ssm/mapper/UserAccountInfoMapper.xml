@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tb121.ssm.mapper.UserAccountInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tb121.ssm.entity.UserAccountInfo">
+        <id column="id" property="id" />
+        <result column="account" property="account" />
+        <result column="username" property="username" />
+        <result column="passwd" property="passwd" />
+        <result column="nickname" property="nickname" />
+        <result column="headimg" property="headimg" />
+        <result column="signature" property="signature" />
+        <result column="gender" property="gender" />
+        <result column="brithday" property="brithday" />
+        <result column="hobby" property="hobby" />
+        <result column="type" property="type" />
+        <result column="status" property="status" />
+        <result column="registerd_time" property="registerdTime" />
+        <result column="status_time" property="statusTime" />
+        <result column="modify_time" property="modifyTime" />
+    </resultMap>
+    <!--findCustomUserAccountListMap-->
+    <resultMap id="findCustomUserAccountListMap" type="com.tb121.ssm.form.CustomUserAccount">
+        <id column="id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="gender" property="gender"></result>
+        <result column="account" property="account"></result>
+        <association property="userContactInfo" javaType="com.tb121.ssm.entity.UserContactInfo">
+            <result property="phone" column="phone"></result>
+        </association>
+        <collection property="userStaffInfos" ofType="com.tb121.ssm.entity.UserStaffInfo">
+            <result property="type" column="type"></result>
+        </collection>
+    </resultMap>
+
+
+    <select id="findUserInfoVoList" resultType="com.tb121.ssm.form.UserInfoVo">
+        SELECT
+	temp.*,
+	GROUP_CONCAT( sta.type ) type
+    FROM
+	(
+	SELECT
+		ac.id,
+		ac.username,
+		ac.gender,
+		ac.account,
+		co.phone,
+		co.area1,
+		co.area2,
+		co.area3
+	FROM
+		user_account_info ac,
+		user_contact_info co
+	WHERE
+		ac.id = co.user_id
+	) temp
+	JOIN user_staff_info sta ON sta.user_id = temp.id
+    GROUP BY
+	temp.id
+	LIMIT 0,10
+    </select>
+    <select id="findCustomUserAccountList" resultMap="findCustomUserAccountListMap">
+        SELECT
+	temp.*,
+	GROUP_CONCAT( sta.type ) type
+    FROM
+	(
+	SELECT
+		ac.id,
+		ac.username,
+		ac.gender,
+		ac.account,
+		co.phone,
+		co.area1,
+		co.area2,
+		co.area3
+	FROM
+		user_account_info ac,
+		user_contact_info co
+	WHERE
+		ac.id = co.user_id
+	) temp
+	JOIN user_staff_info sta ON sta.user_id = temp.id
+    GROUP BY
+	temp.id
+	LIMIT 0,10
+    </select>
+
+	<select id="selectUserAccountList" resultType="com.tb121.ssm.form.UserInfoVo">
+		  SELECT
+	temp.*,
+	GROUP_CONCAT( sta.type ) type
+    FROM
+	(
+	SELECT
+		ac.id,
+		ac.username,
+		ac.gender,
+		ac.account,
+		co.phone,
+		co.area1,
+		co.area2,
+		co.area3
+	FROM
+		user_account_info ac,
+		user_contact_info co
+	WHERE
+		ac.id = co.user_id
+	) temp
+	JOIN user_staff_info sta ON sta.user_id = temp.id
+    GROUP BY
+	temp.id
+	</select>
+
+	<select id="selectCountByUserAccount" resultType="java.lang.Long">
+		select count(1) from (SELECT
+	GROUP_CONCAT( sta.type ) type
+FROM
+	(
+	SELECT
+		ac.id,
+		ac.username,
+		ac.gender,
+		ac.account,
+		co.phone,
+		co.area1,
+		co.area2,
+		co.area3
+	FROM
+		user_account_info ac,
+		user_contact_info co
+	WHERE
+		ac.id = co.user_id
+	) temp
+	JOIN user_staff_info sta ON sta.user_id = temp.id
+GROUP BY
+	temp.id) temp1
+
+	</select>
+    <select id="selectAccountContactInfo" resultType="com.tb121.ssm.form.AccountContactVo">
+        select ac.id,ac.username,ac.gender,co.phone from user_account_info ac,user_contact_info co where ac.id=co.user_id
+    </select>
+
+	<resultMap id="findUserAccountStaffListMap" type="userAccountInfo" extends="BaseResultMap">
+		<collection property="userStaffInfos" ofType="userStaffInfo">
+			<id property="id" column="staff_id"></id>
+			<result property="userId" column="user_id"></result>
+			<result property="type" column="staff_type"></result>
+			<result property="status" column="staff_status"></result>
+		</collection>
+	</resultMap>
+	<select id="findUserAccountStaffList"  resultMap="findUserAccountStaffListMap">
+		SELECT
+	ac.*,
+	sta.id as staff_id,
+	sta.user_id,
+	sta.type as staff_type,
+	sta.name,
+	sta.val,
+	sta.`comment`,
+	sta.`status` as staff_status,
+	sta.eff_time,
+	sta.exp_time,
+	sta.midify_time
+FROM
+	user_account_info ac,
+	user_staff_info sta
+WHERE
+	ac.id = sta.user_id
+	and account='13055298275'
+	</select>
+	<resultMap id="findListMap" type="userAccountInfo" extends="BaseResultMap">
+		<collection property="userStaffInfos" ofType="userStaffInfo">
+			<id	property="id" column="staff_id"></id>
+			<result property="userId" column="user_id"></result>
+			<result property="type" column="staff_type"></result>
+			<result property="status" column="staff_status"></result>
+		</collection>
+	</resultMap>
+	<select id="findList" resultMap="findListMap">
+	SELECT
+	ac.*,
+	sta.id as staff_id,
+	sta.user_id,
+	sta.type as staff_type,
+	sta.name,
+	sta.val,
+	sta.`comment`,
+	sta.`status` as staff_status,
+	sta.eff_time,
+	sta.exp_time,
+	sta.midify_time
+	FROM
+	user_account_info ac,
+	user_staff_info sta
+	WHERE
+	ac.id = sta.user_id
+	</select>
+	<sql id="xx">
+		<if test="">
+
+		</if>
+
+	</sql>
+</mapper>

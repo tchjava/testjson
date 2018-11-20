@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tb121.ssm.mapper.StudentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tb121.ssm.entity.Student">
+        <id column="s_id" property="sId" />
+        <result column="s_name" property="sName" />
+        <result column="s_birth" property="sBirth" />
+        <result column="s_sex" property="sSex" />
+    </resultMap>
+
+
+
+    <resultMap id="findStudentById_Map" type="customStudent" extends="BaseResultMap">
+        <result column="username" property="username"></result>
+    </resultMap>
+    <select id="findStudentById" parameterType="string" resultMap="findStudentById_Map">
+       SELECT
+            stu.*,
+            stu.s_name AS username
+        FROM
+            student stu
+        WHERE
+            stu.s_id = #{id}
+    </select>
+
+
+
+
+
+
+</mapper>
