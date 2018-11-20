@@ -98,4 +98,10 @@ public class TestStudentMapper {
     public void regist() {
         System.out.println("补充了");
     }
+
+    //在分支上添加的功能
+    @Test
+    public void devTest1() {
+
+    }
 }
