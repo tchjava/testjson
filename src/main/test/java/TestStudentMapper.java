@@ -80,5 +80,5 @@ public class TestStudentMapper {
         System.out.println("fun7....");
     }
     //加一个验证码的方法
-
+    //添加一个fun9方法,然后添加逻辑
 }
