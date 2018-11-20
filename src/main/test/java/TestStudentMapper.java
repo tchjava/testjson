@@ -62,7 +62,6 @@ public class TestStudentMapper {
     public void fun4() {
         System.out.println("输出了fun4方法...");
     }
-
     //加一个fun5()方法
     @Test
     public void fun5() {
@@ -70,5 +69,5 @@ public class TestStudentMapper {
     }
     //加一个fun6()方法
     //加一个fun7()方法
-
+    //加一个fun8()方法
 }
