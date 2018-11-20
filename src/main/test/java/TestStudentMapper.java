@@ -92,4 +92,10 @@ public class TestStudentMapper {
     public void login() {
         System.out.println("login.....");
     }
+
+    //添加注册功能()
+    @Test
+    public void regist() {
+
+    }
 }
