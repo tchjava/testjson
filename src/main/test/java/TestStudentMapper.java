@@ -116,4 +116,10 @@ public class TestStudentMapper {
     public void masterTest1() {
         System.out.println("补充了masterTest1...");
     }
+
+    //在主分支上添加了功能1
+    @Test
+    public void masterTest2() {
+
+    }
 }
