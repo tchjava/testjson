@@ -66,6 +66,7 @@ public class TestStudentMapper {
     @Test
     public void fun5() {
         System.out.println("fun5方法...");
+        System.out.println("fun5-1..");
     }
     //加一个fun6()方法
     //加一个fun7()方法
