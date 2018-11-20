@@ -54,6 +54,6 @@ public class TestStudentMapper {
 
     @Test
     public void fun3() {
-
+        System.out.println("修改了fun3中的文件");
     }
 }
