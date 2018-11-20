@@ -104,4 +104,10 @@ public class TestStudentMapper {
     public void devTest1() {
 
     }
+
+    //在主分支上添加功能
+    @Test
+    public void masterTest1() {
+
+    }
 }
