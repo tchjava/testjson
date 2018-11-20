@@ -82,5 +82,6 @@ public class TestEntityWrapper {
     @Test
     public void fun5(){
         //这里要补充
+        System.out.println("fun5...");
     }
 }
