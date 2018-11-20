@@ -108,6 +108,6 @@ public class TestStudentMapper {
     //在主分支上添加功能
     @Test
     public void masterTest1() {
-
+        System.out.println("补充了masterTest1...");
     }
 }
