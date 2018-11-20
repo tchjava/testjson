@@ -96,6 +96,6 @@ public class TestStudentMapper {
     //添加注册功能()
     @Test
     public void regist() {
-
+        System.out.println("补充了");
     }
 }
