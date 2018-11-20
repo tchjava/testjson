@@ -79,4 +79,8 @@ public class TestEntityWrapper {
         Page page = new Page(1,2);
 
     }
+    @Test
+    public void fun5(){
+        //这里要补充
+    }
 }
