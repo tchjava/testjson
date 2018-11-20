@@ -1,0 +1,357 @@
+2018-11-02 14:18:26,082 - Log4JLogChute initialized using file 'velocity.log'
+2018-11-02 14:18:26,082 - Initializing Velocity, Calling init()...
+2018-11-02 14:18:26,087 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2018-11-02 14:18:26,087 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2018-11-02 14:18:26,087 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2018-11-02 14:18:26,087 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2018-11-02 14:18:26,087 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-11-02 14:18:26,087 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-11-02 14:18:26,090 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,117 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2018-11-02 14:18:26,118 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2018-11-02 14:18:26,120 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2018-11-02 14:18:26,120 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2018-11-02 14:18:26,121 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2018-11-02 14:18:26,122 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2018-11-02 14:18:26,123 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2018-11-02 14:18:26,124 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2018-11-02 14:18:26,125 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2018-11-02 14:18:26,126 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2018-11-02 14:18:26,169 - Created '20' parsers.
+2018-11-02 14:18:26,178 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2018-11-02 14:18:26,178 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2018-11-02 14:18:26,178 - Velocimacro : Default library not found.
+2018-11-02 14:18:26,178 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2018-11-02 14:18:26,178 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2018-11-02 14:18:26,178 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2018-11-02 14:18:26,178 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2018-11-02 14:18:26,220 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,232 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,232 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,232 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,232 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,232 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,232 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,232 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,233 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,233 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,233 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,233 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,233 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,233 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,233 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,235 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,236 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,236 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,236 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,236 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,236 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,236 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,236 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,236 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,236 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,236 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,236 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,236 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,236 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,237 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,237 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,247 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,254 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,269 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,287 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,293 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,305 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,306 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,306 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,307 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,307 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,307 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,307 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,307 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,308 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,308 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,308 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,308 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,308 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,308 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,308 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,308 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,308 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,308 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,308 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,308 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,308 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,313 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,313 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,314 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,314 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,334 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,341 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,364 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,371 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,379 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,387 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,389 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,389 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,389 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,389 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,390 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,390 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,390 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,390 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,390 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,390 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,390 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,390 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,390 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,390 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,390 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,390 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,390 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,390 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,390 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:18:26,390 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:18:26,394 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,400 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,404 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,410 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:18:26,415 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,334 - Log4JLogChute initialized using file 'velocity.log'
+2018-11-02 14:20:56,334 - Initializing Velocity, Calling init()...
+2018-11-02 14:20:56,334 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2018-11-02 14:20:56,334 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2018-11-02 14:20:56,334 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2018-11-02 14:20:56,334 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2018-11-02 14:20:56,334 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-11-02 14:20:56,334 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-11-02 14:20:56,347 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,357 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2018-11-02 14:20:56,360 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2018-11-02 14:20:56,361 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2018-11-02 14:20:56,361 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2018-11-02 14:20:56,363 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2018-11-02 14:20:56,363 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2018-11-02 14:20:56,365 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2018-11-02 14:20:56,366 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2018-11-02 14:20:56,367 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2018-11-02 14:20:56,368 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2018-11-02 14:20:56,399 - Created '20' parsers.
+2018-11-02 14:20:56,413 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2018-11-02 14:20:56,413 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2018-11-02 14:20:56,414 - Velocimacro : Default library not found.
+2018-11-02 14:20:56,414 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2018-11-02 14:20:56,414 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2018-11-02 14:20:56,414 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2018-11-02 14:20:56,414 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2018-11-02 14:20:56,449 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,467 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,467 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,468 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,468 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,468 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,468 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,468 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,468 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,468 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,468 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,468 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,468 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,468 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,468 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,471 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,471 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,472 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,472 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,472 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,472 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,472 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,472 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,472 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,472 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,472 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,472 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,473 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,473 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,473 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,473 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,491 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,534 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,549 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,571 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,577 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,591 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,593 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,593 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,593 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,593 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,594 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,594 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,594 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,594 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,594 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,594 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,594 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,594 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,594 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,594 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,594 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,594 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,594 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,594 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,594 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,594 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,594 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,595 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,595 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,595 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,601 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,613 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,627 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,634 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,639 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,659 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,663 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,663 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,663 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,663 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,663 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,663 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,664 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,664 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,664 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,664 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,664 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,664 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,664 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,664 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,664 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,664 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,664 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,664 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,664 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 14:20:56,664 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 14:20:56,674 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,681 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,686 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,694 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 14:20:56,708 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:58,844 - Log4JLogChute initialized using file 'velocity.log'
+2018-11-02 15:01:58,844 - Initializing Velocity, Calling init()...
+2018-11-02 15:01:58,844 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2018-11-02 15:01:58,844 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2018-11-02 15:01:58,844 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2018-11-02 15:01:58,844 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2018-11-02 15:01:58,844 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-11-02 15:01:58,845 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2018-11-02 15:01:58,847 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:58,857 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2018-11-02 15:01:58,858 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2018-11-02 15:01:58,858 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2018-11-02 15:01:58,859 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2018-11-02 15:01:58,859 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2018-11-02 15:01:58,860 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2018-11-02 15:01:58,861 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2018-11-02 15:01:58,861 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2018-11-02 15:01:58,862 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2018-11-02 15:01:58,863 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2018-11-02 15:01:58,896 - Created '20' parsers.
+2018-11-02 15:01:58,902 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2018-11-02 15:01:58,902 - Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+2018-11-02 15:01:58,902 - Velocimacro : Default library not found.
+2018-11-02 15:01:58,902 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2018-11-02 15:01:58,902 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2018-11-02 15:01:58,902 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2018-11-02 15:01:58,902 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2018-11-02 15:01:58,927 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:58,938 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,938 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,938 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,938 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,938 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,938 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,938 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,938 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,938 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,938 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,938 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,938 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,939 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,939 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,941 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,941 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,941 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,941 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,941 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,941 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,941 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,942 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,942 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,942 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,942 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,942 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,942 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,942 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,942 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,942 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,957 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:58,962 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:58,970 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:58,976 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:58,983 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:58,989 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:58,991 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,991 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,992 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,992 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,992 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,992 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,993 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,993 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,993 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,993 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,993 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,993 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,993 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,993 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,993 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,993 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,994 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,994 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,994 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,994 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,994 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,994 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:58,994 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:58,994 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,002 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:59,011 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:59,029 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:59,037 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:59,041 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:59,052 - ResourceManager : found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:59,054 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:59,054 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,054 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:59,054 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,054 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:59,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:59,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:59,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:59,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:59,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:59,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:59,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,055 - Left side (${versionFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 74, column 26]
+2018-11-02 15:01:59,055 - Left side (${logicDeleteFieldName}) of '==' operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/entity.java.vm[line 78, column 30]
+2018-11-02 15:01:59,059 - ResourceManager : found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:59,067 - ResourceManager : found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:59,083 - ResourceManager : found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:59,092 - ResourceManager : found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+2018-11-02 15:01:59,109 - ResourceManager : found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
