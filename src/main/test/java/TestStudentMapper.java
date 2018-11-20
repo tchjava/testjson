@@ -92,4 +92,5 @@ public class TestStudentMapper {
     public void login() {
         System.out.println("login.....");
     }
+    //是不是要加一个注册功能在这里
 }
