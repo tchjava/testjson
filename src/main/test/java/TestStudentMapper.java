@@ -63,4 +63,5 @@ public class TestStudentMapper {
         System.out.println("输出了fun4方法...");
     }
     //加一个fun5()方法
+    //加一个fun6()方法
 }
