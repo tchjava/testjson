@@ -56,6 +56,7 @@ public class TestStudentMapper {
     public void fun3() {
         System.out.println("修改了fun3中的文件");
     }
+    //这里要加一个方法
 
     @Test
     public void fun4() {
