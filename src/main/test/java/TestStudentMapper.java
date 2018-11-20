@@ -75,5 +75,10 @@ public class TestStudentMapper {
 
     }
     //加一个fun7()方法
+    @Test
+    public void fun7() {
+        System.out.println("fun7....");
+    }
     //加一个验证码的方法
+
 }
