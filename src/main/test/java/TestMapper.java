@@ -18,5 +18,11 @@ public class TestMapper {
         CourseRequest courseRequest=courseMapper.findById();
         System.out.println(courseRequest);
         System.out.println("随便加了的一句话");
+        System.out.println("xxx");
+    }
+
+    @Test
+    public void fun1() {
+        System.out.println("xxxx");
     }
 }
