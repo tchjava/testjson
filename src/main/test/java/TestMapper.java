@@ -13,17 +13,5 @@ public class TestMapper {
         courseMapper= (CourseMapper) ac.getBean("courseMapper");
 
     }
-    @Test
-    public void fun() {
-        CourseRequest courseRequest=courseMapper.findById();
-        System.out.println(courseRequest);
-        System.out.println("随便加了的一句话");
-        System.out.println("xxx");
-        System.out.println("不要了吗?");
-    }
-
-    @Test
-    public void fun1() {
-        System.out.println("xxxx");
-    }
+    
 }
