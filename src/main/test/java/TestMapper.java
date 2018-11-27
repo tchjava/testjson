@@ -19,6 +19,7 @@ public class TestMapper {
         System.out.println(courseRequest);
         System.out.println("随便加了的一句话");
         System.out.println("xxx");
+        System.out.println("不要了吗?");
     }
 
     @Test
