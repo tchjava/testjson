@@ -16,6 +16,8 @@ import org.springframework.stereotype.Controller;
 @Controller
 @RequestMapping("/course")
 public class CourseController {
+    public void fun() {
 
+    }
 }
 
