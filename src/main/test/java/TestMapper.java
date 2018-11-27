@@ -11,5 +11,7 @@ public class TestMapper {
         courseMapper= (CourseMapper) ac.getBean("courseMapper");
 
     }
+    private void sing(){
     
+    }
 }
