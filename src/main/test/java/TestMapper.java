@@ -1,7 +1,5 @@
-import com.tb121.ssm.entity.form.CourseRequest;
 import com.tb121.ssm.mapper.CourseMapper;
 import org.junit.Before;
-import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
