@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tb121.ssm.mapper.CrmCustInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tb121.ssm.entity.CrmCustInfo">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="phone" property="phone" />
+        <result column="sex" property="sex" />
+        <result column="addr1" property="addr1" />
+        <result column="addr2" property="addr2" />
+        <result column="addr3" property="addr3" />
+        <result column="address" property="address" />
+        <result column="father_name" property="fatherName" />
+        <result column="father_phone" property="fatherPhone" />
+        <result column="father_work" property="fatherWork" />
+        <result column="father_job" property="fatherJob" />
+        <result column="mother_name" property="motherName" />
+        <result column="mother_phone" property="motherPhone" />
+        <result column="mother_work" property="motherWork" />
+        <result column="mother_job" property="motherJob" />
+        <result column="school_id" property="schoolId" />
+        <result column="school_name" property="schoolName" />
+        <result column="grade" property="grade" />
+        <result column="classes" property="classes" />
+        <result column="learn_type" property="learnType" />
+        <result column="sale_id" property="saleId" />
+        <result column="call_sale_id" property="callSaleId" />
+        <result column="count" property="count" />
+        <result column="create_time" property="createTime" />
+        <result column="last_follow_time" property="lastFollowTime" />
+        <result column="site_id" property="siteId" />
+        <result column="agent_id" property="agentId" />
+        <result column="account_id" property="accountId" />
+        <result column="parent_focus" property="parentFocus" />
+        <result column="pay_ability" property="payAbility" />
+        <result column="comment" property="comment" />
+        <result column="source_type" property="sourceType" />
+        <result column="source_id" property="sourceId" />
+        <result column="status" property="status" />
+        <result column="segment" property="segment" />
+    </resultMap>
+
+</mapper>

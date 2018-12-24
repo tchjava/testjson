@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tb121.ssm.mapper.ProdPackageDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tb121.ssm.entity.ProdPackageDetail">
+        <id column="id" property="id" />
+        <result column="prod_id" property="prodId" />
+        <result column="sku_id" property="skuId" />
+        <result column="bss_type" property="bssType" />
+        <result column="sku_code" property="skuCode" />
+        <result column="sku_classify" property="skuClassify" />
+        <result column="unit_price" property="unitPrice" />
+        <result column="num" property="num" />
+        <result column="price" property="price" />
+        <result column="bill_type" property="billType" />
+        <result column="subjects" property="subjects" />
+        <result column="eff_date" property="effDate" />
+        <result column="exp_date" property="expDate" />
+        <result column="stage_num" property="stageNum" />
+        <result column="comments" property="comments" />
+        <result column="serial_num" property="serialNum" />
+        <result column="time_id" property="timeId" />
+    </resultMap>
+
+</mapper>

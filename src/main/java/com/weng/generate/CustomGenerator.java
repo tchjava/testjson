@@ -38,16 +38,16 @@ public class CustomGenerator {
         DataSourceConfig dataSourceConfig = new DataSourceConfig();
         dataSourceConfig.setDbType(DbType.MYSQL);
         dataSourceConfig.setDriverName("com.mysql.jdbc.Driver");
-        dataSourceConfig.setUsername("root");
-        dataSourceConfig.setPassword("123456");
-        dataSourceConfig.setUrl("jdbc:mysql://127.0.0.1:3306/my_test?characterEncoding=utf8");
+        dataSourceConfig.setUsername("dev");
+        dataSourceConfig.setPassword("121dev121");
+        dataSourceConfig.setUrl("jdbc:mysql://10.0.0.24:3306/ut-online?useSSL=false&characterEncoding=utf8");
         autoGenerator.setDataSource(dataSourceConfig);
 
         // 策略配置
         StrategyConfig strategy = new StrategyConfig();
         //strategy.setTablePrefix("bmd_");// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
-        strategy.setInclude(new String[]{"teacher", "student","score","course"}); // 需要生成的表
+        strategy.setInclude(new String[]{"cfg_school_info"}); // 需要生成的表
 
         // strategy.setExclude(new String[]{"test"}); // 排除生成的表
         // 字段名生成策略

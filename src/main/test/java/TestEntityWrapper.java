@@ -2,6 +2,7 @@ import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.tb121.ssm.entity.User;
 import com.tb121.ssm.entity.UserAccountInfo;
+import com.tb121.ssm.mapper.StudentMapper;
 import com.tb121.ssm.mapper.UserMapper;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,6 +14,7 @@ import java.util.Map;
 
 public class TestEntityWrapper {
     private UserMapper userMapper;
+    private StudentMapper studentMapper;
     public static void main(String[] args) {
         EntityWrapper<UserAccountInfo> wrapper=new EntityWrapper<>();
         wrapper.setEntity(new UserAccountInfo());
@@ -27,7 +29,7 @@ public class TestEntityWrapper {
     public void init() {
         ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
         userMapper= (UserMapper) ac.getBean("userMapper");
-
+        studentMapper = (StudentMapper) ac.getBean("studentMapper");
     }
     /**
      * selectList
@@ -88,6 +90,12 @@ public class TestEntityWrapper {
         //xxxxxx
         //wwwww
         //////////////
+    }
+
+    @Test
+    public void fun6() {
+        boolean flag=false;
+
     }
     
 }

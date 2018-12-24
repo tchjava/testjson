@@ -1,6 +1,8 @@
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
+import com.tb121.ssm.entity.Student;
 import com.tb121.ssm.entity.User;
+import com.tb121.ssm.service.StudentService;
 import com.tb121.ssm.service.UserService;
 import org.junit.Before;
 import org.junit.Test;
@@ -14,10 +16,13 @@ import java.util.Map;
 
 public class TestService {
     private UserService userService;
+    private StudentService studentService;
     @Before
     public void init() {
         ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:spring/applicationContext*.xml");
         userService = (UserService) ac.getBean("userServiceImpl");
+        studentService = (StudentService) ac.getBean("studentServiceImpl");
+
     }
 
     private void sout(int line) {
@@ -29,7 +34,7 @@ public class TestService {
     @Test
     public void fun1() {
         User user=new User();
-        user.setId(10L);
+        user.setId(111L);
         user.setName("lixiaosi");
         user.setEmail("lixiaosi@121.com");
         userService.insert(user);
@@ -184,6 +189,11 @@ public class TestService {
         for(User user:userList){
             System.out.println(user);
         }
+    }
+    @Test
+    public void testStudentService() {
+        Student student= studentService.selectOne(new EntityWrapper<Student>().eq("s_sex","男").orderBy("s_id",false ));
+        System.out.println(student);
     }
 
 
